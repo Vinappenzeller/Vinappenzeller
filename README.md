@@ -1,6 +1,7 @@
 ### Hi there 👋
 🔭 I’m currently working on my portfolio website   
 🌱 I’m currently learning React
+📫 How to reach me: vin_appenzeller@outlook.de 
 
 
 
