@@ -1,6 +1,5 @@
 ### Hi there 👋
 📫 How to reach me: vin_appenzeller@outlook.de \
-🌱 I’m currently learning Python
 
 
 <!--
