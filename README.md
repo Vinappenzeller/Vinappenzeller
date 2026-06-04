@@ -1,5 +1,5 @@
 ### Hi there 👋
-📫 How to reach me: vin_appenzeller@outlook.de \
+📫 How to reach me: vin_appenzeller@outlook.de 
 
 
 <!--
