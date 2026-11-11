@@ -2,7 +2,7 @@ name: Update profile stats
 
 on:
   schedule:
-    - cron: "0 4 * * *" # daily at 04:00 UTC
+    - cron: "0 4 * * 1" # weekly, Mondays at 04:00 UTC
   workflow_dispatch:
 
 permissions:
