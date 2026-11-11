@@ -132,7 +132,7 @@ def contribution_days():
       } }
     }"""
     days = {}
-    for y in sorted(years):
+    for y in range(min(years), dt.date.today().year + 1):
         data = gql(q, **{"from": f"{y}-01-01T00:00:00Z", "to": f"{y}-12-31T23:59:59Z"})
         for week in data["viewer"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
             for d in week["contributionDays"]:
@@ -160,12 +160,12 @@ def streaks(days):
 def streak_svg(days):
     total = sum(c for _, c in days)
     current, longest = streaks(days)
-    last_year = sum(c for _, c in days[-365:])
 
     # weekly totals for the last 52 weeks
     recent = days[-364:]
     weeks = [sum(c for _, c in recent[i:i + 7]) for i in range(0, len(recent), 7)]
     peak = max(weeks) or 1
+    last_year = sum(weeks)
 
     width, height = 420, 196
     parts = []
@@ -208,9 +208,9 @@ def svg(width, height, title, body):
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     totals, colors = language_totals()
-    with open(os.path.join(OUT_DIR, "languages.svg"), "w") as f:
+    with open(os.path.join(OUT_DIR, "languages.svg"), "w", encoding="utf-8") as f:
         f.write(languages_svg(totals, colors))
-    with open(os.path.join(OUT_DIR, "activity.svg"), "w") as f:
+    with open(os.path.join(OUT_DIR, "activity.svg"), "w", encoding="utf-8") as f:
         f.write(streak_svg(contribution_days()))
     print("Wrote", OUT_DIR + "/languages.svg", OUT_DIR + "/activity.svg")
 
