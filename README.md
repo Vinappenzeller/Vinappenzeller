@@ -1,6 +1,11 @@
 ### Hi there 👋
 📫 How to reach me: vin_appenzeller@outlook.de 
 
+<p>
+  <img src="assets/languages.svg" alt="Most used languages" width="420" />
+  <img src="assets/activity.svg" alt="Contribution activity" width="420" />
+</p>
+
 
 <!--
 **Vinappenzeller/Vinappenzeller** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
