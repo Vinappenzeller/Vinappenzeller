@@ -23,25 +23,25 @@
   <rect class="track" x="24" y="52" width="372" height="10" rx="5"/>
   <clipPath id="bar"><rect x="24" y="52" width="372" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-  <rect x="24.00" y="52" width="97.46" height="10" fill="#7355dd"/>
-  <rect x="120.96" y="52" width="92.05" height="10" fill="#3178c6"/>
-  <rect x="212.51" y="52" width="79.90" height="10" fill="#F05138"/>
-  <rect x="291.91" y="52" width="52.69" height="10" fill="#e34c26"/>
-  <rect x="344.10" y="52" width="21.07" height="10" fill="#f1e05a"/>
-  <rect x="364.67" y="52" width="20.25" height="10" fill="#3572A5"/>
-  <rect x="384.42" y="52" width="5.29" height="10" fill="#519aba"/>
-  <rect x="389.21" y="52" width="2.42" height="10" fill="#663399"/>
-  <rect x="391.13" y="52" width="5.37" height="10" fill="#8b949e"/>
+  <rect x="24.00" y="52" width="97.39" height="10" fill="#7355dd"/>
+  <rect x="120.89" y="52" width="91.98" height="10" fill="#3178c6"/>
+  <rect x="212.36" y="52" width="80.13" height="10" fill="#F05138"/>
+  <rect x="291.99" y="52" width="52.65" height="10" fill="#e34c26"/>
+  <rect x="344.14" y="52" width="21.05" height="10" fill="#f1e05a"/>
+  <rect x="364.69" y="52" width="20.24" height="10" fill="#3572A5"/>
+  <rect x="384.43" y="52" width="5.29" height="10" fill="#519aba"/>
+  <rect x="389.22" y="52" width="2.42" height="10" fill="#663399"/>
+  <rect x="391.14" y="52" width="5.36" height="10" fill="#8b949e"/>
   </g>
   <circle cx="29" cy="88" r="5" fill="#7355dd"/>
   <text class="label" x="40" y="92">C#</text>
-  <text class="muted" x="194" y="92" text-anchor="end">26.1%</text>
+  <text class="muted" x="194" y="92" text-anchor="end">26.0%</text>
   <circle cx="219" cy="88" r="5" fill="#3178c6"/>
   <text class="label" x="230" y="92">TypeScript</text>
   <text class="muted" x="384" y="92" text-anchor="end">24.6%</text>
   <circle cx="29" cy="112" r="5" fill="#F05138"/>
   <text class="label" x="40" y="116">Swift</text>
-  <text class="muted" x="194" y="116" text-anchor="end">21.3%</text>
+  <text class="muted" x="194" y="116" text-anchor="end">21.4%</text>
   <circle cx="219" cy="112" r="5" fill="#e34c26"/>
   <text class="label" x="230" y="116">HTML</text>
   <text class="muted" x="384" y="116" text-anchor="end">14.0%</text>
