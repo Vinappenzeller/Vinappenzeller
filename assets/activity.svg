@@ -53,8 +53,8 @@
   <rect class="accent" x="196.44" y="162.00" width="5.65" height="2.00" rx="1"/>
   <rect class="track" x="203.60" y="162.00" width="5.65" height="2.00" rx="1"/>
   <rect class="track" x="210.75" y="162.00" width="5.65" height="2.00" rx="1"/>
-  <rect class="accent" x="217.90" y="160.28" width="5.65" height="3.72" rx="1"/>
-  <rect class="accent" x="225.06" y="130.54" width="5.65" height="33.46" rx="1"/>
+  <rect class="accent" x="217.90" y="155.94" width="5.65" height="8.06" rx="1"/>
+  <rect class="accent" x="225.06" y="134.87" width="5.65" height="29.13" rx="1"/>
   <rect class="accent" x="232.21" y="152.23" width="5.65" height="11.77" rx="1"/>
   <rect class="track" x="239.37" y="162.00" width="5.65" height="2.00" rx="1"/>
   <rect class="track" x="246.52" y="162.00" width="5.65" height="2.00" rx="1"/>
